@@ -12,8 +12,6 @@
 		26F061AC25DE79460043CF49 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F061AB25DE79460043CF49 /* MainViewController.swift */; };
 		26F061B125DE794D0043CF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F061B025DE794D0043CF49 /* Assets.xcassets */; };
 		26F061B425DE794D0043CF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F061B225DE794D0043CF49 /* LaunchScreen.storyboard */; };
-		26F061BF25DE794E0043CF49 /* ModalPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F061BE25DE794E0043CF49 /* ModalPresentationTests.swift */; };
-		26F061CA25DE794E0043CF49 /* ModalPresentationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F061C925DE794E0043CF49 /* ModalPresentationUITests.swift */; };
 		26F061E125DE7EC20043CF49 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F061E025DE7EC20043CF49 /* MainView.swift */; };
 		26F061E625DE8F260043CF49 /* DefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F061E525DE8F260043CF49 /* DefViewController.swift */; };
 		26F061EB25DE8F420043CF49 /* DefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F061EA25DE8F420043CF49 /* DefView.swift */; };
@@ -41,19 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26F061A425DE79460043CF49 /* ModalPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F061A425DE79460043CF49 /* ModalPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ModalPresentation.app; path = "/Users/mihailevseev/Documents/ModalPresentation/build/Debug-iphoneos/ModalPresentation.app"; sourceTree = "<absolute>"; };
 		26F061A725DE79460043CF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26F061A925DE79460043CF49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		26F061AB25DE79460043CF49 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		26F061B025DE794D0043CF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26F061B325DE794D0043CF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26F061B525DE794E0043CF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26F061BA25DE794E0043CF49 /* ModalPresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalPresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26F061BE25DE794E0043CF49 /* ModalPresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationTests.swift; sourceTree = "<group>"; };
-		26F061C025DE794E0043CF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26F061C525DE794E0043CF49 /* ModalPresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalPresentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26F061C925DE794E0043CF49 /* ModalPresentationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationUITests.swift; sourceTree = "<group>"; };
-		26F061CB25DE794E0043CF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F061BA25DE794E0043CF49 /* ModalPresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ModalPresentationTests.xctest; path = "/Users/mihailevseev/Documents/ModalPresentation/build/Debug-iphoneos/ModalPresentationTests.xctest"; sourceTree = "<absolute>"; };
+		26F061C525DE794E0043CF49 /* ModalPresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ModalPresentationUITests.xctest; path = "/Users/mihailevseev/Documents/ModalPresentation/build/Debug-iphoneos/ModalPresentationUITests.xctest"; sourceTree = "<absolute>"; };
 		26F061E025DE7EC20043CF49 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		26F061E525DE8F260043CF49 /* DefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefViewController.swift; sourceTree = "<group>"; };
 		26F061EA25DE8F420043CF49 /* DefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefView.swift; sourceTree = "<group>"; };
@@ -92,20 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				26F061A625DE79460043CF49 /* ModalPresentation */,
-				26F061BD25DE794E0043CF49 /* ModalPresentationTests */,
-				26F061C825DE794E0043CF49 /* ModalPresentationUITests */,
-				26F061A525DE79460043CF49 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		26F061A525DE79460043CF49 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				26F061A425DE79460043CF49 /* ModalPresentation.app */,
-				26F061BA25DE794E0043CF49 /* ModalPresentationTests.xctest */,
-				26F061C525DE794E0043CF49 /* ModalPresentationUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		26F061A625DE79460043CF49 /* ModalPresentation */ = {
@@ -122,24 +103,6 @@
 				26F0620F25E64E4E0043CF49 /* switchOnProtocol.swift */,
 			);
 			path = ModalPresentation;
-			sourceTree = "<group>";
-		};
-		26F061BD25DE794E0043CF49 /* ModalPresentationTests */ = {
-			isa = PBXGroup;
-			children = (
-				26F061BE25DE794E0043CF49 /* ModalPresentationTests.swift */,
-				26F061C025DE794E0043CF49 /* Info.plist */,
-			);
-			path = ModalPresentationTests;
-			sourceTree = "<group>";
-		};
-		26F061C825DE794E0043CF49 /* ModalPresentationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				26F061C925DE794E0043CF49 /* ModalPresentationUITests.swift */,
-				26F061CB25DE794E0043CF49 /* Info.plist */,
-			);
-			path = ModalPresentationUITests;
 			sourceTree = "<group>";
 		};
 		26F061F925DE93230043CF49 /* View */ = {
@@ -249,7 +212,7 @@
 				Base,
 			);
 			mainGroup = 26F0619B25DE79460043CF49;
-			productRefGroup = 26F061A525DE79460043CF49 /* Products */;
+			productRefGroup = 26F0619B25DE79460043CF49;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -308,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F061BF25DE794E0043CF49 /* ModalPresentationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F061CA25DE794E0043CF49 /* ModalPresentationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

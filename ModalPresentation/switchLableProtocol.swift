@@ -8,7 +8,7 @@
 import Foundation
 
 protocol lableSwitchDelegate: class {
-    func chageLableTextToDef()
+    func changeLableTextToDef()
     
-    func changeLableTextToCastm()
+    func changeLableTextToCustom()
 }

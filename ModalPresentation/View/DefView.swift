@@ -19,7 +19,8 @@ class DefView: UIView {
     }
     
     private func configureView(){
-        self.backgroundColor = .brown
+        self.backgroundColor = .white
     }
 
+    
 }

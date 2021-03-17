@@ -26,15 +26,15 @@ class MainViewController: UIViewController {
     
     @objc func switchStateDidChange(_ sender:UISwitch){
         if (sender.isOn){
-            delegateLable?.changeLableTextToCastm()
+            delegateLable?.changeLableTextToCustom()
             
         }
         else{
-            delegateLable?.chageLableTextToDef()
+            delegateLable?.changeLableTextToDef()
         }
     }
     
-    @objc func tabBottun(){
+    @objc func tabButton(){
         guard let delegateSwitch = delegateSwitch else { return }
         
         if (delegateSwitch.switchOnStatus()){

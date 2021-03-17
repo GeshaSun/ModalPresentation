@@ -19,7 +19,7 @@ class MainView: UIView {
     }
     
     
-    private let castomTextLable = "Castom modal presentation"
+    private let customTextLable = "Custom modal presentation"
     private let defaultTextLable = "Default modal presentation"
     
     private let switchControl: UISwitch = {
@@ -40,7 +40,7 @@ class MainView: UIView {
         button.setTitle("Present", for: .normal)
         button.setTitleColor(.black, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.addTarget(self, action: #selector(MainViewController.tabBottun), for: .touchUpInside)
+        button.addTarget(self, action: #selector(MainViewController.tabButton), for: .touchUpInside)
         button.backgroundColor = .systemGray3
         button.layer.cornerRadius = button.titleLabel!.frame.size.height / 2
         return button
@@ -92,11 +92,11 @@ extension MainView: switchOnDelegate {
 }
 
 extension MainView: lableSwitchDelegate {
-    func changeLableTextToCastm() {
-        switchLable.text = castomTextLable
+    func changeLableTextToCustom() {
+        switchLable.text = customTextLable
     }
     
-    func chageLableTextToDef() {
+    func changeLableTextToDef() {
         switchLable.text = defaultTextLable
     }
     

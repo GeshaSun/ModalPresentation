@@ -19,7 +19,7 @@ class SecondCustomMPView: UIView {
     }
     
     private func configureView(){
-        self.backgroundColor = .darkGray
+        self.backgroundColor = .white
         self.layer.roundCorners([.topLeft, .topRight], radius: 20)
     }
 
